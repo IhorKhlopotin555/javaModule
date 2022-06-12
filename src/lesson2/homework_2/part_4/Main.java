@@ -6,7 +6,6 @@ import java.util.Collections;
 
 public class Main {
 
-
     public static void main(String[] args) {
 
 
@@ -20,10 +19,6 @@ public class Main {
             skills.add(skill_1);
             skills.add(skill_2);
             skills.add(skill_3);
-            for (int i = 0; i < skills.size(); i++) {
-                System.out.println(skills.get(i));
-            }
-
 
         User vasya = new User(1, "Vasya", "Pupkin", "asd@asd.com", "31", "male",skills, car_vasya);
         System.out.println(vasya);
