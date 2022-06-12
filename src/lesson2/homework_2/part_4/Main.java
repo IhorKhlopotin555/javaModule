@@ -15,12 +15,12 @@ public class Main {
         Skills skill_2 = new Skills(Skill.BACKEND, "20");
         Skills skill_3 = new Skills(Skill.FRONTEND, "40");
 
-            ArrayList<Skills> skills = new ArrayList<>();
-            skills.add(skill_1);
-            skills.add(skill_2);
-            skills.add(skill_3);
+        ArrayList<Skills> skills = new ArrayList<>();
+        skills.add(skill_1);
+        skills.add(skill_2);
+        skills.add(skill_3);
 
-        User vasya = new User(1, "Vasya", "Pupkin", "asd@asd.com", "31", "male",skills, car_vasya);
+        User vasya = new User(1, "Vasya", "Pupkin", "asd@asd.com", "31", "male", skills, car_vasya);
         System.out.println(vasya);
 
     }
