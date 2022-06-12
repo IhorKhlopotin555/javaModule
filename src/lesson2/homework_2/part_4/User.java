@@ -2,6 +2,8 @@ package lesson2.homework_2.part_4;
 
 import lombok.*;
 
+import java.util.ArrayList;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -14,9 +16,7 @@ public class User {
     private String email;
     private String age;
     private String gender;
-    private Skills skills_1;
-    private Skills skills_2;
-    private Skills skills_3;
+    private ArrayList<Skills> skills;
     private Car car;
 
     @Override
@@ -28,7 +28,7 @@ public class User {
                 ", email:" + email +
                 ", age:" + age +
                 ", gender:" + gender +
-                ", skills:" + "[" + skills_1 + skills_2 + skills_3 + "], " +
+                ", skills:" + skills + "," +
                 "car:" + car + "}}";
     }
 }
