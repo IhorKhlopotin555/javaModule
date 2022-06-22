@@ -23,7 +23,6 @@ public class Main {
         users.add(new User(9, "vasya", "pupkin", "asd@asd.com", 31, Gender.MALE, skills, car));
         users.add(new User(10, "vasya", "pupkin", "asd@asd.com", 31, Gender.MALE, skills, car));
 
-
         Iterator<User> iterator = users.iterator();
 
         while(iterator.hasNext()){
